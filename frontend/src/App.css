@@ -1,0 +1,216 @@
+/* Add your global styles here */
+
+/* Modern card and animation styles for Games.js */
+.game-card {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10), 0 1.5px 4px rgba(0,0,0,0.08);
+  border-radius: 1.5rem;
+  transition: transform 0.25s cubic-bezier(.4,2,.6,1), box-shadow 0.25s;
+  background: #fff;
+}
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+.game-img {
+  transition: transform 0.4s cubic-bezier(.4,2,.6,1);
+}
+.game-card:hover .game-img {
+  transform: scale(1.07) rotate(-1deg);
+}
+.game-card .game-img:hover {
+  transform: scale(1.05);
+}
+.fade-slide-enter {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+}
+.fade-slide-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.fade-slide-exit {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.fade-slide-exit-active {
+  opacity: 0;
+  transform: translateY(30px) scale(0.98);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.card-title, .fw-bold {
+  letter-spacing: 0.5px;
+}
+.badge {
+  font-size: 0.95em;
+  border-radius: 0.7em;
+}
+.btn-outline-primary {
+  border-width: 2px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+/* Hero section styles */
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1;
+}
+
+.hero-section > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .game-card { border-radius: 1rem; }
+}
+
+/* In App.css (or your imported CSS file for Header) */
+
+.navbar-custom-cyan {
+  background-color: #00FFFF !important; /* Your desired cyan (e.g., #00FFFF, #20c997, #40E0D0) */
+  /* You can also use other cyan variations like:
+     background-color: #40E0D0 !important; /* Turquoise */
+  /*   background-color: #00CED1 !important; /* Dark Turquoise */
+}
+
+/* --- Nav Links (Home, Games, About, etc.) --- */
+.navbar-custom-cyan .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.7) !important; /* Darker, slightly transparent text for readability */
+  font-weight: 500; /* Makes the font a bit bolder */
+  font-size: 1.05rem; /* Slightly larger font size */
+  margin-right: 0.5rem; /* Adds a little spacing */
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar-custom-cyan .navbar-nav .nav-link:hover,
+.navbar-custom-cyan .navbar-nav .nav-link:focus,
+.navbar-custom-cyan .navbar-nav .nav-link.active { /* For active link styling */
+  color: #000000 !important; /* Solid black or very dark grey on hover/focus/active */
+}
+
+/* --- Authenticated User Text --- */
+.navbar-custom-cyan .signed-in-text {
+  color: rgba(0, 0, 0, 0.75) !important; /* Darker text for "Signed in as" */
+  font-weight: 500;
+}
+
+/* --- Buttons --- */
+.navbar-custom-cyan .login-button {
+  /* Bootstrap's variant="light" should give a light grey button with dark text. */
+  /* If you want more specific styling: */
+  background-color: #f8f9fa; /* Light grey background */
+  border-color: #dee2e6;
+  color: #212529 !important; /* Dark text */
+  font-weight: 500;
+}
+.navbar-custom-cyan .login-button:hover {
+  background-color: #e2e6ea;
+  border-color: #d3d9df;
+}
+
+.navbar-custom-cyan .logout-button {
+  /* Bootstrap's variant="outline-light" on a light background means light border, light text */
+  /* This might be hard to see. Let's make it more prominent. */
+  border-color: rgba(0, 0, 0, 0.4) !important; /* Darker border */
+  color: rgba(0, 0, 0, 0.7) !important; /* Darker text */
+  font-weight: 500;
+}
+.navbar-custom-cyan .logout-button:hover {
+  background-color: rgba(0, 0, 0, 0.05) !important; /* Slight dark overlay on hover */
+  color: #000000 !important;
+}
+
+
+/* --- Navbar Toggler (Hamburger Icon) --- */
+/* Ensure the hamburger icon is visible against the cyan background */
+.navbar-custom-cyan .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.3) !important; /* Darker border for the toggler button */
+}
+
+.navbar-custom-cyan .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Darker lines for the icon */
+}
+
+/* Optional: If you have a Navbar.Brand */
+.navbar-custom-cyan .navbar-brand {
+  color: rgba(0, 0, 0, 0.9) !important; /* Make brand text dark and prominent */
+  font-weight: bold;
+}
+.navbar-custom-cyan .navbar-brand:hover {
+  color: #000000 !important;
+}
+
+/* About page styles */
+.badge {
+  font-size: 0.85em;
+  padding: 0.5em 1em;
+}
+
+.badge.bg-primary {
+  background-color: #0066cc !important;
+}
+
+.badge.bg-success {
+  background-color: #28a745 !important;
+}
+
+.badge.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+/* Card hover effect */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Text styles */
+.text-muted {
+  color: #6c757d !important;
+}
+
+.small {
+  font-size: 0.875em;
+}
+
+/* List styles */
+ul.text-muted {
+  padding-left: 1.2rem;
+}
+
+ul.text-muted li {
+  margin-bottom: 0.3rem;
+}
+
+/* Responsive image */
+@media (max-width: 768px) {
+  .rounded-3.overflow-hidden {
+    width: 200px !important;
+    height: 240px !important;
+  }
+}
