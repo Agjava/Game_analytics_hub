@@ -3,11 +3,11 @@
 A full-stack web application for visualizing gaming industry metrics, managing game libraries, and collecting user feedback. Built with modern web technologies and featuring a responsive, user-friendly interface.
 
 ## 🎥 Video Demonstration
-<video controls width="600">
+[<video controls width="600">
   <source src="./video.mp4" type="video/mp4">
   Sorry, your browser doesn't support embedded videos. 
   You can <a href="./video.mp4">download the video</a> and watch it with your favorite video player.
-</video>
+</video>](https://github.com/user-attachments/assets/6a4a24d9-495f-4794-b614-c1f5538ff559)
 
 ## ⚡ Core Features
 
