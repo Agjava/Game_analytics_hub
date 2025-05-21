@@ -3,8 +3,11 @@
 A full-stack web application for visualizing gaming industry metrics, managing game libraries, and collecting user feedback. Built with modern web technologies and featuring a responsive, user-friendly interface.
 
 ## 🎥 Video Demonstration
-
-[Coming Soon] A comprehensive walkthrough of the application's features and functionality will be added here.
+<video controls width="600">
+  <source src="./video.mp4" type="video/mp4">
+  Sorry, your browser doesn't support embedded videos. 
+  You can <a href="./video.mp4">download the video</a> and watch it with your favorite video player.
+</video>
 
 ## ⚡ Core Features
 
@@ -233,10 +236,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- Kaggle for providing gaming datasets
-- React and Node.js communities
-- Bootstrap team for responsive components
-- Chart.js for visualization tools
-- All contributors and testers
