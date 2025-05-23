@@ -149,6 +149,8 @@ Detailed setup instructions in the sections below.
 
 ## Deployment
 
+### Jira https://ufl-team-agrol4kk.atlassian.net/jira/polaris/projects/GAH/ideas/view/7181920
+
 ### Backend Deployment (Render)
 
 1. Create a new Web Service on Render
