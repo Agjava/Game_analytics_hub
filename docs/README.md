@@ -31,7 +31,7 @@ A full-stack web application for visualizing gaming industry metrics, managing g
   - Platform popularity trends
 
 - **Responsive Design**
-  - Mobile-first approach
+  - Web design approach
   - Smooth transitions and animations
   - Intuitive navigation
   - Cross-browser compatibility
