@@ -52,8 +52,6 @@ A full-stack web application for visualizing gaming industry metrics, managing g
 - **Express.js** - Web framework
 - **MongoDB** - Database
 - **Mongoose** - ODM for MongoDB
-- **Passport.js** - Authentication
-- **JWT** - Token-based authorization
 - **Kaggle API** - Data integration
 
 ### Development & Deployment
