@@ -6,35 +6,18 @@ A full-stack web application for visualizing gaming industry metrics, managing g
 
 [</video>](https://github.com/user-attachments/assets/6a4a24d9-495f-4794-b614-c1f5538ff559)
 
-## ⚡ Core Features
+## 💡 Design Philosophy
+Based on Human-Computer Interaction research and user survey insights, this project addresses the perspective change in user preferences. When surveyed about website design priorities, 57% of users preferred simplicity while 43% wanted feature-rich interfaces.
 
-- **User Authentication & Authorization**
-  - Google and GitHub OAuth integration
-  - Secure user sessions
-  - Role-based access control (Admin/User)
+Solution: A hybrid approach that satisfies both user groups:
 
-- **Game Library Management**
-  - Browse extensive game collection
-  - Advanced search and filtering
-  - Detailed game information pages
-  - Dynamic image loading with fallback support
+Simple, clean homepage for users who value minimalism
 
-- **User Interaction**
-  - Personal game ratings and reviews
-  - User profiles with gaming history
-  - Customizable user avatars
+Feature-rich dedicated pages for users who want advanced functionality
 
-- **Data Visualization**
-  - Interactive charts for gaming metrics
-  - Global sales statistics
-  - Genre distribution analysis
-  - Platform popularity trends
+Progressive disclosure - users can choose their level of engagement
 
-- **Responsive Design**
-  - Web design approach
-  - Smooth transitions and animations
-  - Intuitive navigation
-  - Cross-browser compatibility
+This design philosophy demonstrates how understanding user perspectives can drive thoughtful interface decisions, creating an inclusive experience that doesn't force users to choose between simplicity and functionality.
 
 ## 🛠 Technology Stack
 
