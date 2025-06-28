@@ -1,7 +1,5 @@
 # Game Analytics HUB 🎮
 
-A full-stack web application for visualizing gaming industry metrics, managing game libraries, and collecting user feedback. Built with modern web technologies and featuring a responsive, user-friendly interface.
-
 ## 🎥 Video Demonstration
 
 [</video>](https://github.com/user-attachments/assets/6a4a24d9-495f-4794-b614-c1f5538ff559)
