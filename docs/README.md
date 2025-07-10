@@ -1,6 +1,6 @@
 # Game Analytics HUB 🎮
 
-🌟 Project Highlights
+## 🌟 Project Highlights
 Full-stack analytics platform processing real-world gaming industry data
 Implements OAuth 2.0 authentication with multiple providers
 Responsive design supporting 100+ concurrent users
