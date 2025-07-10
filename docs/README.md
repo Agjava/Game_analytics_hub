@@ -1,12 +1,12 @@
 # Game Analytics HUB 🎮
 
 ## 🌟 Project Highlights
-Full-stack analytics platform processing real-world gaming industry data
-Implements OAuth 2.0 authentication with multiple providers
-Responsive design supporting 100+ concurrent users
-Real-time data visualization using Chart.js
-RESTful API architecture with 95% test coverage
-CI/CD pipeline using GitHub Actions
+- Full-stack analytics platform processing real-world gaming industry data
+- Implements OAuth 2.0 authentication with multiple providers
+- Responsive design supporting 100+ concurrent users
+- Real-time data visualization using Chart.js
+- RESTful API architecture with 95% test coverage
+- CI/CD pipeline using GitHub Actions
 
 
 ## 🎥 Video Demonstration
