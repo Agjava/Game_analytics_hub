@@ -1,13 +1,5 @@
 # Game Analytics HUB 🎮
 
-## 🌟 Project Highlights
-- Full-stack analytics platform processing real-world gaming industry data
-- Implements OAuth 2.0 authentication with multiple providers
-- Responsive design supporting 100+ concurrent users
-- Real-time data visualization using Chart.js
-- RESTful API architecture with 95% test coverage
-- CI/CD pipeline using GitHub Actions
-
 
 ## 🎥 Video Demonstration
 
@@ -25,6 +17,14 @@ Solution: A hybrid approach that satisfies both user groups:
 3. Progressive disclosure - users can choose their level of engagement
 
 This design philosophy demonstrates how understanding user perspectives can drive thoughtful interface decisions, creating an inclusive experience that doesn't force users to choose between simplicity and functionality.
+
+## 🌟 Project Highlights
+- Full-stack analytics platform processing real-world gaming industry data
+- Implements OAuth 2.0 authentication with multiple providers
+- Responsive design supporting 100+ concurrent users
+- Real-time data visualization using Chart.js
+- RESTful API architecture with 95% test coverage
+- CI/CD pipeline using GitHub Actions
 
 ## 🛠 Technology Stack
 
