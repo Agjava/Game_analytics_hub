@@ -6,7 +6,7 @@
 [</video>](https://github.com/user-attachments/assets/6a4a24d9-495f-4794-b614-c1f5538ff559)
 
 ## 💡 Design Philosophy
-Based on <u>Human-Computer Interaction research</u> - https://github.com/Agjava/UF-Event-Portal and user survey insights, this project addresses the perspective change in user preferences. When surveyed about website design priorities, 57% of users preferred simplicity while 43% wanted feature-rich interfaces.
+Based on *Human-Computer Interaction research* ([repository](https://github.com/Agjava/UF-Event-Portal)) and user survey insights, this project addresses the perspective change in user preferences. When surveyed about website design priorities, 57% of users preferred simplicity while 43% wanted feature-rich interfaces.
 
 Solution: A hybrid approach that satisfies both user groups:
 
