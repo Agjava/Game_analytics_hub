@@ -1,6 +1,10 @@
 # Game Analytics HUB 🎮
 
 
+
+https://github.com/user-attachments/assets/db12235b-454b-4810-af24-782ffde43f41
+
+
 ## 🎥 Video Demonstration
 
 [</video>](https://github.com/user-attachments/assets/6a4a24d9-495f-4794-b614-c1f5538ff559)
